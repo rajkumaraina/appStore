@@ -1,0 +1,20 @@
+.listContainer {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+  width: 155px;
+  height: 150px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+.appImg {
+  width: 75px;
+  height: 75px;
+}
+.para {
+  font-size: 15px;
+  font-weight: bold;
+}

@@ -1,0 +1,66 @@
+.mainContainer {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.insideContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+.heading {
+  font-family: 'Bree Serif';
+}
+
+.searchContainer {
+  margin: 10px;
+  border: 1px solid #1e293b;
+  border-radius: 5px;
+  outline: none;
+  width: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inputElement {
+  padding: 8px;
+  border: 0 none;
+  outline: none;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.searchImage {
+  width: 25px;
+  height: 25px;
+}
+.unordered {
+  display: flex;
+}
+.appContainer {
+  background-color: transparent;
+  display: flex;
+}
+.appUnordered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 285px;
+  margin-right: 205px;
+}
+@media (max-width: 576px) {
+  .appUnordered {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .searchContainer {
+    width: 220px;
+  }
+  .appUnordered {
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+}
